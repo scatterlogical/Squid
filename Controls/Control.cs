@@ -5,9 +5,9 @@ using System.Collections;
 using System.ComponentModel;
 using Squid.Xml;
 using System.Text.RegularExpressions;
-using System.Runtime.DesignerServices;
+// using System.Runtime.DesignerServices;
 using System.Net.Mime;
-using System.Runtime.Remoting.Contexts;
+// using System.Runtime.Remoting.Contexts;
 
 namespace Squid
 {
