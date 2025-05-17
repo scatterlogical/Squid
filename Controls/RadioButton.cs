@@ -59,7 +59,7 @@ namespace Squid
         public RadioButton()
         {
             Size = new Point(100, 30);
-            Style = "checkbox";
+            Style = "radio";
 
             MouseClick += RadioButton_MouseClick;
 
