@@ -67,7 +67,7 @@ namespace Squid
             Button.Dock = DockStyle.Left;
             Button.Size = new Point(29, 30);
             Button.CheckOnClick = true;
-            Button.Style = "checkboxButton";
+            Button.Style = "radioButton";
             Button.NoEvents = true;
             Button.CheckedChanged += Button_CheckedChanged;
             Button.BeforeCheckedChanged += Button_BeforeCheckedChanged;
@@ -75,7 +75,7 @@ namespace Squid
 
             Label = new Label();
             Label.Dock = DockStyle.Fill;
-            Label.Style = "checkboxLabel";
+            Label.Style = "radioLabel";
             Label.NoEvents = true;
             Elements.Add(Label);
         }
